@@ -4,16 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rico Perú</title>
+
+  <!-- Fuente Poetsen One -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Estilo para el encabezado con logo y fuente personalizada -->
+  <style>
+    .encabezado {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      background-color: #fff;
+    }
+
+    .encabezado img {
+      height: 50px;
+    }
+
+    .encabezado h1 {
+      font-family: 'Poetsen One', sans-serif;
+      font-size: 30px;
+      margin: 0;
+      color: #D32F2F; /* Color rojo peruano */
+    }
+  </style>
 </head>
+
 <body>
 
-    <header class="logo-header">
-  <img src="img/logo.png" alt="Logo de Rico Perú">
-  <h1>RICO PERÚ</h1>
-</header>
-
+  <!-- Encabezado con logo y título con fuente Poetsen One -->
+  <header class="encabezado">
+    <img src="img/logo.png" alt="Logo Rico Perú">
+    <h1>Rico Perú</h1>
+  </header>
   <nav>
     <a href="#menu">Menú</a>
     <a href="#about">Nosotros</a>
@@ -24,41 +54,62 @@
     <h2>Menú</h2>
 
     <div class="menu-category">
-      <h3>Entradas</h3>
-      <div class="item"><span class="item-name">Sustancia de pollo 🐔/ carne</span><span class="item-price">S/ 12</span></div>
-      <div class="item"><span class="item-name">Causa Limeña</span><span class="item-price">S/ 14</span></div>
-    </div>
+      <h3>Sopas</h3>
+      <div class="item"><span class="item-name">Sustancia de pollo 🐔/ carne 🥩</span><span class="item-price">$/ 16.000</span></div>
+      <div class="item"><span class="item-name">sopa a la minuta </span><span class="item-price">$/ 16.000</span></div>
+      <div class="item"><span class="item-name">sopa de pollo 🐔</span><span class="item-price">$/ 16.000</span></div>
 
     <div class="menu-category">
       <h3>Platos principales</h3>
-      <div class="item"><span class="item-name">Lomo Saltado</span><span class="item-price">S/ 25</span></div>
-      <div class="item"><span class="item-name">Ají de Gallina</span><span class="item-price">S/ 22</span></div>
-      <div class="item"><span class="item-name">Ceviche Clásico</span><span class="item-price">S/ 24</span></div>
+      <div class="item"><span class="item-name">Lomo salteado 🐔/ carne 🥩</span><span class="item-price">$/ 10.000</span></div>
+      <div class="item"><span class="item-name">Lomo Saltado Mixto 🐔🥩</span><span class="item-price">$/ 12.000</span></div>
+      <div class="item"><span class="item-name">Tallarin Salteado 🐔/ carne 🥩</span><span class="item-price">$/ 10.000</span></div>
+      <div class="item"><span class="item-name">Tallarin Salteado Mixto 🐔🥩</span><span class="item-price">$/ 12.000</span></div>
+      <div class="item"><span class="item-name">Pollo brohaster</span><span class="item-price">$/ 12.000</span></div>
+      <div class="item"><span class="item-name">Pollo brohaster con chaufa</span><span class="item-price">$/ 13.000</span></div>
+      <div class="item"><span class="item-name">Chicharon de pollo </span><span class="item-price">$/ 12.000</span></div>
+      <div class="item"><span class="item-name">Bisteck</span><span class="item-price">$/ 13.000</span></div>
+      <div class="item"><span class="item-name">Bisteck a lo pobre</span><span class="item-price">$/ 14.000</span></div>
     </div>
 
     <div class="menu-category">
-      <h3>Postres</h3>
-      <div class="item"><span class="item-name">Suspiro a la Limeña</span><span class="item-price">S/ 10</span></div>
-      <div class="item"><span class="item-name">Mazamorra Morada</span><span class="item-price">S/ 8</span></div>
-    </div>
+      <h3>chifas</h3>
+      <div class="item"><span class="item-name">Chaufa de pollo 🐔/ carne 🥩</span><span class="item-price">$/ 10.000</span></div>
+      <div class="item"><span class="item-name">Chaufa Mixto 🐔🥩</span><span class="item-price">$/ 12.000</span></div>
+    <div class="item"><span class="item-name">Chaufa especial 🐔🥩🦐</span><span class="item-price">$/ 14.000</span></div>
+    <div class="item"><span class="item-name">Chaufa con lomo salteado </span><span class="item-price">$/ 14.000</span></div>
+    <div class="item"><span class="item-name">Aeropuerto de pollo 🐔/ carne 🥩</span><span class="item-price">$/ 12.000</span></div>
+    <div class="item"><span class="item-name">Aeropuerto Mixto 🐔🥩</span><span class="item-price">$/ 14.000</span></div>
+    <div class="item"><span class="item-name">Combinado chifa de pollo 🐔/ carne 🥩</span><span class="item-price">$/ 14.000</span></div>
+    <div class="item"><span class="item-name">Combinado chifa Mixto 🐔🥩</span><span class="item-price">$/ 16.000</span></div>
 
     <div class="menu-category">
       <h3>Bebidas</h3>
-      <div class="item"><span class="item-name">Chicha Morada</span><span class="item-price">S/ 5</span></div>
-      <div class="item"><span class="item-name">Inca Kola</span><span class="item-price">S/ 4</span></div>
+      <div class="item"><span class="item-name">Coca Cola 1.5L</span><span class="item-price">S/ 5.500</span></div>
+      <div class="item"><span class="item-name">Sprite 1.5L</span><span class="item-price">S/ 5.500</span></div>
+      <div class="item"><span class="item-name">Fanta 1.5L</span><span class="item-price">$/ 5.500</span></div>
+      <div class="item"><span class="item-name">Chola de oro 1.5L</span><span class="item-price">$/ 6.000</span></div>
+      <div class="item"><span class="item-name">Levite 1.5L</span><span class="item-price">$/ 4000</span></div>
+      <div class="item"><span class="item-name">Coca Cola 500ml</span><span class="item-price">$/ 2.500</span></div>
+      <div class="item"><span class="item-name">Sprite 500ml</span><span class="item-price">$/ 2.500</span></div>
+      <div class="item"><span class="item-name">Fanta 500ml</span><span class="item-price">$/ 2.500</span></div>
     </div>
-  </section>
-
+  
+     <div class="menu-category">
+      <h3>Cervezas</h3>
+      <div class="item"><span class="item-name">Brahma</span><span class="item-price">$/ 6.000</span></div>
+      <div class="item"><span class="item-name">Stela Artois</span><span class="item-price">$/ 7.000</span></div>
+      <div class="item"><span class="item-name">Corona </span><span class="item-price">$/ 7.000</span></div>
+      <div class="item"><span class="item-name">Quilmes Negra </span><span class="item-price">$/ 7.000</span></div>
   <section class="section" id="about">
     <h2>Sobre nosotros</h2>
     <p>En <strong>Rico Perú</strong> ofrecemos auténtica comida peruana con el sabor casero que tanto amas. Usamos ingredientes frescos y recetas tradicionales.</p>
-  </section>
 
   <section class="section" id="contact">
     <h2>Contacto</h2>
-    <p>📍 Av. Perú 123, Lima</p>
-    <p>📞 +51 987 654 321</p>
-    <p>✉️ contacto@ricoperu.com</p>
+    <p>📍 Cosquín &, B1821 Bragado, Provincia de Buenos Aires</p>
+    <p>📞 +51 1162348923</p>
+  
   </section>
 
   <footer>
