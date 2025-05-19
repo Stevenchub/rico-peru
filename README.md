@@ -1,1 +1,1 @@
-# rico-peru
+# rico
